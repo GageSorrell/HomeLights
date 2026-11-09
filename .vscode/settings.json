@@ -1,0 +1,29 @@
+{
+    "editor.codeActionsOnSave": { },
+    "eslint.options": {
+        "overrideConfigFile": "./eslint.config.js"
+    },
+    "eslint.enable": true,
+    "eslint.nodePath": "node_modules",
+    "eslint.codeActionsOnSave.rules": null,
+    "editor.formatOnSave": false,
+    "eslint.format.enable": false,
+    "explorer.excludeGitIgnore": true,
+    "react-native-tools.projectRoot": "Application",
+  	"eslint.workingDirectories":
+	[
+        { "!cwd": false, "directory": "**" }
+  	],
+    "eslint.validate":
+    [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "cSpell.words":
+    [
+        "homelights",
+        "Govee"
+    ]
+}

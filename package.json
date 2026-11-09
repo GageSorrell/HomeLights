@@ -1,0 +1,23 @@
+{
+    "name": "homelights-monorepo",
+    "description": "Control Hue and Govee lights under a single interface.",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces":
+    [
+        "Application",
+        "Documentation",
+        "Package/*",
+        "Script/*"
+    ],
+    "scripts": {},
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.6",
+    "@sorrell/eslint-config": "2.5.0",
+    "eslint": "9.39.5",
+    "eslint-plugin-react-perf": "3.3.3",
+    "react-native": "0.86.2",
+    "typescript": "6.0.3"
+  },
+    "type": "module"
+}

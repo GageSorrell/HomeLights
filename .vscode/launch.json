@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "React Native Windows: Debug (Hermes)",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnativedirect",
+            "request": "launch",
+            "platform": "windows",
+            "preLaunchTask": "Patch React Native Tools extension"
+        },
+        {
+            "name": "React Native Windows: Attach to packager",
+            "cwd": "${workspaceFolder}",
+            "type": "reactnative",
+            "request": "attach",
+            "preLaunchTask": "Patch React Native Tools extension"
+        }
+    ]
+}

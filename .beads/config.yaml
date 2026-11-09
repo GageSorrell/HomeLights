@@ -75,3 +75,5 @@ dolt:
     shared-server: true
 export:
     auto: true
+sync:
+    remote: "git@github.com:GageSorrell/HomeLights.git"
